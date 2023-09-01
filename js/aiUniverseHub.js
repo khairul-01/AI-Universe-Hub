@@ -19,7 +19,7 @@ const aiHubDisplay = data => {
          `
       }
       const aiCard = document.createElement('div');
-      aiCard.classList = `card w-full bg-base-100 shadow-xl`;
+      aiCard.classList = `card w-full bg-base-200 shadow-xl`;
       aiCard.innerHTML = `
       <figure class="px-10 pt-10">
          <img src="${tool?.image}" alt="${tool.name}" class="rounded-xl" />
