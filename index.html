@@ -7,12 +7,39 @@
    <!-- Tailwind and Daisy UI links -->
    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
    <script src="https://cdn.tailwindcss.com"></script>
+   <!-- Font awesome link -->
+   <script src="https://kit.fontawesome.com/be91fb8742.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="max-w-screen-2xl mx-auto px-7 lg:px-24 py-10">
    <header>
-      <h1>AI Universe Hub</h1>
+      <h1 class="text-5xl text-center pt-4">AI Universe Hub</h1>
    </header>
-   <main></main>
+   <main>
+      <div class="text-center">
+         <button onclick="aiHubHandler()" class="btn btn-error mt-12">Sort By Date</button>
+      </div>
+      <section id="card-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-3">
+         <!-- <div class="card w-full bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Features</h2>
+              <p></p>
+              <hr>
+              <div class="flex justify-between items-center">
+               <div>
+                  <h2 class="card-title">Features</h2>
+                  <p>31/09/2023</p>
+               </div>
+               <div class="card-actions">
+                 <button class="btn btn-sm btn-outline btn-primary"><i class="fa-solid fa-arrow-right"></i></button>
+               </div>
+              </div>
+            </div>
+          </div> -->
+      </section>
+   </main>
    <footer></footer>
    <script src="./js/aiUniverseHub.js"></script>
 </body>
